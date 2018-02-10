@@ -45,7 +45,8 @@ data = {'file1.txt': 'Bob', 'file2.dat': 'George', 'file3.csv': \
 
 print(FileOwners.group_by_owners(data))
 
-'''=======================================OUTPUT========================================
+'''
+=======================================OUTPUT========================================
 {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
 
 {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
