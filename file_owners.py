@@ -44,3 +44,13 @@ data = {'file1.txt': 'Bob', 'file2.dat': 'George', 'file3.csv': \
         'Mary', 'file9.txt': 'Frank', 'file10.yyz': 'George'}
 
 print(FileOwners.group_by_owners(data))
+
+'''=======================================OUTPUT========================================
+{'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
+
+{'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
+{'Bob': ['file1.txt', 'file5.ppt'], 'George': ['file2.dat', 'file10.yyz'], 'Mary': ['file3.csv', 'file6.mdb'], 'Larry': ['file4.doc'], 'Frank': ['file9.txt']}
+
+'''
+
+
